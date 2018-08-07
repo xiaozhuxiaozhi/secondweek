@@ -1,0 +1,79 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 1,
+    "passes": 1,
+    "pending": 0,
+    "failures": 0,
+    "start": "2018-08-07T13:04:51.072Z",
+    "end": "2018-08-07T13:04:51.110Z",
+    "duration": 38,
+    "testsRegistered": 1,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false,
+    "passPercentClass": "success",
+    "pendingPercentClass": "danger"
+  },
+  "suites": {
+    "uuid": "6ed610da-5488-4c4a-9bbf-97ed492b97c9",
+    "title": "",
+    "fullFile": "",
+    "file": "",
+    "beforeHooks": [],
+    "afterHooks": [],
+    "tests": [],
+    "suites": [
+      {
+        "uuid": "f4394db2-46f2-4546-af26-4910e6e10c8d",
+        "title": "测试接口",
+        "fullFile": "/Users/zhuziwei/Desktop/secondweek/test/router.spec.js",
+        "file": "/test/router.spec.js",
+        "beforeHooks": [],
+        "afterHooks": [],
+        "tests": [
+          {
+            "title": "点赞",
+            "fullTitle": "测试接口 点赞",
+            "timedOut": false,
+            "duration": 28,
+            "state": "passed",
+            "speed": "fast",
+            "pass": true,
+            "fail": false,
+            "pending": false,
+            "code": "request().get('/api/add_praise').expect('Content-type', 'json').expect(200).end(function (err, res) {\n    if (res.success == true) return done(err);\n    done();\n});",
+            "err": {},
+            "isRoot": false,
+            "uuid": "71ef7a85-b3e6-45ec-9c67-ea0a804b8bde",
+            "isHook": false,
+            "skipped": false
+          }
+        ],
+        "suites": [],
+        "passes": [
+          "71ef7a85-b3e6-45ec-9c67-ea0a804b8bde"
+        ],
+        "failures": [],
+        "pending": [],
+        "skipped": [],
+        "duration": 28,
+        "root": false,
+        "rootEmpty": false,
+        "_timeout": 2000
+      }
+    ],
+    "passes": [],
+    "failures": [],
+    "pending": [],
+    "skipped": [],
+    "duration": 0,
+    "root": true,
+    "rootEmpty": true,
+    "_timeout": 2000
+  },
+  "copyrightYear": 2018
+}
